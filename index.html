@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillMentorX Community - A Community for Skills and Clarity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo-placeholder">
+                    <img src="logo.png" alt="SkillMentorX Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="logo-fallback" style="display:none;">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+                <span>SkillMentorX Community</span>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-page="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-page="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#community" class="nav-link" data-page="community">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-logo">
+                        <div class="logo-placeholder-large">
+                            <img src="logo.png" alt="SkillMentorX Logo" class="logo-img-large" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="logo-fallback" style="display:none;">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="hero-title">SkillMentorX Community</h1>
+                    <p class="hero-subtitle">A Community for Skills and Clarity</p>
+                    <div class="hero-buttons">
+                        <a href="https://chat.whatsapp.com/LSypQNfeI04BmOcsqfQ5pS" 
+                           class="btn btn--primary btn--lg" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Join Our Community
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Highlights Section -->
+            <section class="highlights">
+                <div class="container">
+                    <h2 class="section-title">What Our Community Offers</h2>
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Learning Together</h3>
+                            <p>Connect with like-minded students and professionals who are committed to growth and learning.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Career Growth</h3>
+                            <p>Get clarity on your career path and next steps with guidance from peers and community members.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>Skill Development</h3>
+                            <p>Focus on practical skills that matter in the real world, starting with cybersecurity and Python.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-hands-helping"></i>
+                            </div>
+                            <h3>Support Network</h3>
+                            <p>Find guidance, motivation, and support from a community that understands your journey.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Preview Section -->
+            <section class="about-preview">
+                <div class="container">
+                    <div class="about-preview-content">
+                        <div class="about-text">
+                            <h2>Meet the Founder</h2>
+                            <p>Hi, I'm <strong>Chetan Bansal</strong>, the founder of SkillMentorX Community. As a final-year B.Tech Computer Science student with experience in cybersecurity, I realized that students and young professionals often struggle with clarity in both career growth and mental wellness.</p>
+                            <p>That's why I started SkillMentorX — not just as another EdTech platform, but as a genuine community where learning, mentorship, and wellness come together.</p>
+                        <button class="btn btn--outline" onclick="navigateToPage('about')">Learn More About Our Story</button>
+                        </div>
+                        <div class="founder-image">
+                            <div class="founder-placeholder">
+                                <i class="fas fa-user-graduate"></i>
+                                <p>Chetan Bansal</p>
+                                <span>Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>About SkillMentorX Community</h1>
+                    <p>Our journey from a student's observation to a community-driven movement</p>
+                </div>
+
+                <div class="about-content">
+                    <!-- Our Story -->
+                    <div class="story-section">
+                        <h2>Our Story</h2>
+                        <p>SkillMentorX started with a simple observation: students and young professionals often struggle with clarity in both career growth and mental wellness. Many platforms focus only on skills or only on mental health, but real success comes when both go hand in hand.</p>
+                        <p>As a student myself, I realized the gap — while colleges teach subjects, they rarely prepare us for real-life skills, confidence, and mindset. I wanted to change that. That's why I started SkillMentorX: not just as another EdTech idea, but as a community-driven movement where learning, mentorship, and wellness come together.</p>
+                    </div>
+
+                    <!-- Team Section -->
+                    <div class="team-section">
+                        <h2><i class="fas fa-users"></i> Our Team</h2>
+                        
+                        <!-- Founder Profile -->
+                        <div class="founder-section">
+                            <div class="founder-profile">
+                                <div class="founder-image-large">
+                                    <div class="founder-placeholder-large">
+                                        <i class="fas fa-user-graduate"></i>
+                                    </div>
+                                </div>
+                                <div class="founder-details">
+                                <h2>Chetan Bansal</h2>
+                                <h3>Founder of SkillMentorX Community</h3>
+                                
+                                <div class="founder-info">
+                                    <div class="info-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span><strong>Education:</strong> Final-year B.Tech (Computer Science) with a diploma in Information Technology</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-laptop-code"></i>
+                                        <span><strong>Experience:</strong> Completed 5 internships in Cybersecurity, specializing in cyber crime investigation, digital forensics, and research</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-brain"></i>
+                                        <span><strong>Research:</strong> Published research on Deepfakes and their psychological impact on society</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span><strong>Mentorship & Teaching:</strong> Passionate about mentoring students, conducting workshops, and simplifying complex tech and career concepts</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-seedling"></i>
+                                        <span><strong>Vision:</strong> To bridge the gap between career skills and mental wellness, creating a platform that prepares students not just for jobs, but for life</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <!-- Team Member Profile - Rahul -->
+                        <div class="founder-section">
+                            <div class="founder-profile">
+                                <div class="founder-image-large">
+                                    <div class="founder-placeholder-large">
+                                        <i class="fas fa-user-graduate"></i>
+                                    </div>
+                                </div>
+                                <div class="founder-details">
+                                    <h2>Rahul</h2>
+                                    <h3>Community Partner & Coordinator</h3>
+                                    <div class="founder-info">
+                                        <div class="info-item">
+                                            <i class="fas fa-graduation-cap"></i>
+                                            <span><strong>Education:</strong> BCA Graduate</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-laptop-code"></i>
+                                            <span><strong>Expertise:</strong> Python and Cybersecurity Specialist</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-cogs"></i>
+                                            <span><strong>Skills:</strong> Expert in creating custom automation scripts for various tasks</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-users-cog"></i>
+                                            <span><strong>Role:</strong> Manages community growth and provides technical support to members</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-heart"></i>
+                                            <span><strong>Mission:</strong> Passionate about helping learners develop practical skills and achieve their goals</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mission Section -->
+                    <div class="mission-section">
+                        <h2><i class="fas fa-bullseye"></i> Our Mission</h2>
+                        <div class="mission-text">
+                            "To empower students and young professionals with the skills, mentorship, and mental clarity they need to thrive in today's fast-changing world."
+                        </div>
+                        <h3>We believe:</h3>
+                        <ul class="beliefs-list">
+                            <li>Career growth should be accessible to everyone, not just the privileged few</li>
+                            <li>Mental wellness is the foundation for success, not an afterthought</li>
+                            <li>Practical skills + guidance build confidence, opportunities, and better futures</li>
+                        </ul>
+                        <p class="mission-tagline"><strong>Help you learn smarter, grow faster, and live balanced.</strong></p>
+                    </div>
+
+                    <!-- Personal Journey -->
+                    <div class="journey-section">
+                        <h2>My Personal Journey</h2>
+                        <p>During my journey as a student in Computer Science, I realized that most of us struggle with two major gaps:</p>
+                        
+                        <div class="journey-gaps">
+                            <div class="gap-item">
+                                <h4><i class="fas fa-map-marked-alt"></i> Career Clarity & Skills</h4>
+                                <p>We often learn theory but lack the right practical skills and mentorship to stand out in the industry.</p>
+                            </div>
+                            <div class="gap-item">
+                                <h4><i class="fas fa-brain"></i> Mental Wellness</h4>
+                                <p>While focusing on academics and placements, many of us silently deal with stress, confusion, and burnout, without proper support.</p>
+                            </div>
+                        </div>
+
+                        <p>With my background in Cybersecurity (5 internships, digital forensics, and cyber crime investigation), along with my research on the psychological impact of deepfakes, I saw how strongly skills and mental health are connected.</p>
+
+                        <div class="mission-points">
+                            <h3>That's why I started SkillMentorX — to build a community where students can:</h3>
+                            <ul>
+                                <li>Learn real-world skills through peer learning and community support</li>
+                                <li>Access guidance to balance personal and professional life</li>
+                                <li>Grow as individuals, not just as job seekers</li>
+                            </ul>
+                        </div>
+
+                        <div class="personal-note">
+                            This mission is deeply personal to me — because I've lived the same challenges, and I want to ensure the next generation doesn't just survive college life but thrives in it.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Page -->
+        <section id="community" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Join Our Community</h1>
+                    <p>Be part of a supportive WhatsApp community focused on learning and growth</p>
+                </div>
+
+                <div class="community-content">
+                    <div class="community-intro">
+                        <h2>What is SkillMentorX Community?</h2>
+                        <p>We're a WhatsApp-based community of students and young professionals who are committed to learning together, supporting each other, and growing both personally and professionally.</p>
+                        <p>Our community is built on the foundation that <strong>real growth happens when we combine skill development with mental wellness and peer support</strong>.</p>
+                    </div>
+
+                    <div class="focus-grid">
+                        <div class="focus-item">
+                            <i class="fas fa-users"></i>
+                            <h3>Peer Learning</h3>
+                            <p>Learn together with fellow students and professionals who share similar goals and challenges.</p>
+                        </div>
+                        <div class="focus-item">
+                            <i class="fas fa-comments"></i>
+                            <h3>Open Discussions</h3>
+                            <p>Share experiences, ask questions, and get advice from community members who understand your journey.</p>
+                        </div>
+                        <div class="focus-item">
+                            <i class="fas fa-hands-helping"></i>
+                            <h3>Mutual Support</h3>
+                            <p>Find encouragement during challenging times and celebrate successes together as a community.</p>
+                        </div>
+                        <div class="focus-item">
+                            <i class="fas fa-share-alt"></i>
+                            <h3>Skill Sharing</h3>
+                            <p>Starting with cybersecurity and Python, members share knowledge and learn from each other's expertise.</p>
+                        </div>
+                    </div>
+
+                    <div class="join-community">
+                        <div class="card">
+                            <div class="card__body">
+                                <h2 class="join-card h2"><i class="fab fa-whatsapp"></i> Ready to Join?</h2>
+                                <p>Click the button below to connect with Chetan directly on WhatsApp and get added to our community group.</p>
+                                <div class="join-note">
+                                    This is a genuine community focused on mutual growth and support. We welcome students and young professionals who are committed to learning and helping others succeed.
+                                </div>
+                                <a href="https://chat.whatsapp.com/LSypQNfeI04BmOcsqfQ5pS" 
+                                   class="btn btn--primary btn--lg btn--full-width" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                    Join SkillMentorX Community
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Contact Us</h1>
+                    <p>Connect with Chetan directly for community questions or collaboration opportunities</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-form-section">
+                        <div class="card">
+                            <div class="card__body">
+                                <h2>Send a Message</h2>
+                                <form class="contact-form" id="contact-form">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Full Name</label>
+                                        <input type="text" id="name" name="name" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" id="email" name="email" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <select id="subject" name="subject" class="form-control" required>
+                                            <option value="">Select a topic</option>
+                                            <option value="community">Community Questions</option>
+                                            <option value="collaboration">Collaboration Opportunity</option>
+                                            <option value="feedback">Feedback or Suggestions</option>
+                                            <option value="general">General Inquiry</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="contact-details">
+                            <h3>Get in Touch</h3>
+                            <div class="contact-item">
+                                <i class="fas fa-user"></i>
+                                <span><strong>Chetan Bansal</strong><br>Founder, SkillMentorX Community</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:bchetan031@gmail.com">bchetan031@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+917838177359">+91 7838177359</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Delhi, India</span>
+                            </div>
+                        </div>
+
+                        <div class="whatsapp-contact card">
+                            <div class="card__body">
+                                <h3><i class="fab fa-whatsapp"></i> Prefer WhatsApp?</h3>
+                                <p>For quick questions or to join our community, message Chetan directly on WhatsApp.</p>
+                                <a href="https://wa.me/917838177359?text=Hi%20Chetan,%20I%20have%20a%20question%20about%20SkillMentorX%20Community!" 
+                                   class="btn btn--primary btn--full-width" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                    Message on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h3>Connect Online</h3>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/company/skillmentorx-community/" target="_blank" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://wa.me/917838177359" target="_blank" title="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="mailto:bchetan031@gmail.com" title="Email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
